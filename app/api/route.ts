@@ -6,17 +6,33 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
   try {
-    const body = await req.json(); // Extract JSON data from the request
+    // Extract JSON data from the request
+    const body = await req.json();
 
-    // Log the data or use it however you need
     console.log("Form data received:", body);
 
-    // Send an email using the Resend API
+    // Generate the .txt file
+    const fileContent = JSON.stringify(body, null, 2);
+    const fileName = `sop-writer-${Date.now()}.txt`;
+
+    // Convert content to a Buffer
+    const fileBuffer = Buffer.from(fileContent, "utf-8");
+
+    // attachmetn object
+    const attachment = {
+      content: fileBuffer.toString("base64"),
+      filename: fileName,
+      type: "text/plain",
+      disposition: "attachment",
+    };
+
+    // Send the email by calling the Resend API
     const { data, error } = await resend.emails.send({
       from: "Acme <onboarding@resend.dev>",
       to: ["hana.habibpor@gmail.com"],
       subject: "SOP writer",
       react: EmailTemplate({ name: body.name }),
+      attachments: [attachment],
     });
 
     if (error) {

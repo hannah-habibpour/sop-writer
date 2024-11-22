@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Full Name",
+    "inputId": "fullname",
+    "placeholder": "Enter your full name",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 2,
+    "question": "Date of Birth",
+    "inputId": "dateofbirth",
+    "placeholder": "",
+    "type": "date",
+    "isRequired": true
+  },
+  {
+    "id": 3,
+    "question": "Current Address",
+    "inputId": "currentaddress",
+    "placeholder": "Enter your current address",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 4,
+    "question": "Nationality",
+    "inputId": "nationality",
+    "placeholder": "",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 5,
+    "question": "Passport Number",
+    "inputId": "passportnumber",
+    "placeholder": "Enter your passport number",
+    "type": "text",
+    "isRequired": true
+  }
+]

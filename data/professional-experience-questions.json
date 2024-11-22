@@ -1,0 +1,50 @@
+[
+  {
+    "id": 14,
+    "question": "Current employer",
+    "inputId": "currentemployer",
+    "placeholder": "Enter the name of your current employer",
+    "type": "text",
+    "isRequired": false
+  },
+  {
+    "id": 15,
+    "question": "Position/Job Title",
+    "inputId": "jobtitle",
+    "placeholder": "Enter your position or job title",
+    "type": "text",
+    "isRequired": false
+  },
+  {
+    "id": 16,
+    "question": "Employment start date",
+    "inputId": "employmentstartdate",
+    "placeholder": "",
+    "type": "date",
+    "isRequired": false
+  },
+  {
+    "id": 17,
+    "question": "Employment end date",
+    "inputId": "employmentenddate",
+    "placeholder": "",
+    "type": "date",
+    "isRequired": false
+  },
+  {
+    "id": 18,
+    "question": "Responsibilities in your current role",
+    "inputId": "jobresponsibilities",
+    "placeholder": "Briefly describe your responsibilities in your current role",
+    "type": "text",
+    "isRequired": false
+  },
+  {
+    "id": 19,
+    "question": "How has your professional experience influenced your decision to pursue this course in Canada?",
+    "inputId": "professionalinfluence",
+    "placeholder": "Describe Briefly",
+    "type": "text",
+    "isRequired": false
+  }
+]

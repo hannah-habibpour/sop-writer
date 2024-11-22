@@ -1,0 +1,90 @@
+[
+  {
+    "id": 20,
+    "question": "Course/program",
+    "inputId": "coursename",
+    "placeholder": "Enter the name of the course/program you are applying for in Canada",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 21,
+    "question": "Why are you interested in this particular course/program?",
+    "inputId": "interestincourse",
+    "placeholder": "Describe Briefly",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 22,
+    "question": "How does this course align with your academic background?",
+    "inputId": "coursealignment",
+    "placeholder": "Describe Briefly",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 23,
+    "question": "How does this course align with your professional experience?",
+    "inputId": "coursealignmentprofessional",
+    "placeholder": "Describe Briefly",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 24,
+    "question": "What specific skills or knowledge do you hope to gain from this program?",
+    "inputId": "skillsknowledge",
+    "placeholder": "Describe Briefly",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 25,
+    "question": "University/College",
+    "inputId": "universityname",
+    "placeholder": "Enter the name of the university/college you are applying to in Canada",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 26,
+    "question": "Why did you choose this university for your studies?",
+    "inputId": "universitychoice",
+    "placeholder": "Describe Briefly",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 27,
+    "question": "Have you contacted faculty or departments at the university?",
+    "inputId": "contactedfaculty",
+    "placeholder": "if yes, please provide details",
+    "type": "text",
+    "isRequired": false
+  },
+  {
+    "id": 28,
+    "question": "What unique features or opportunities at this university attracted you?",
+    "inputId": "uniquefeatures",
+    "placeholder": "Describe Briefly",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 29,
+    "question": "Do you know any alumni or current students from this university?",
+    "inputId": "knowalumni",
+    "placeholder": "if yes, what did you learn from them? please provide details about",
+    "type": "text",
+    "isRequired": false
+  },
+  {
+    "id": 30,
+    "question": "How will studying at this university enhance your professional or academic goals?",
+    "inputId": "enhancegoals",
+    "placeholder": "Describe Briefly",
+    "type": "text",
+    "isRequired": true
+  }
+]

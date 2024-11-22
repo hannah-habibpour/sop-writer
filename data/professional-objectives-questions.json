@@ -1,0 +1,50 @@
+[
+  {
+    "id": 31,
+    "question": "What are your short-term career goals after completing this course?",
+    "inputId": "shorttermgoals",
+    "placeholder": "Describe Briefly",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 32,
+    "question": "What are your long-term career goals?",
+    "inputId": "longtermgoals",
+    "placeholder": "Describe Briefly",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 33,
+    "question": "How will this program help you achieve these goals?",
+    "inputId": "achievegoals",
+    "placeholder": "Describe Briefly",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 34,
+    "question": "Do you plan to return to your home country after completing your studies? If yes, what opportunities do you see for yourself there?",
+    "inputId": "returnhome",
+    "placeholder": "Describe Briefly",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 35,
+    "question": "Describe how this program will make you more competitive in your field of interest",
+    "inputId": "morecompetitive",
+    "placeholder": "Describe Briefly",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 36,
+    "question": "Are there specific companies or roles you are targeting post-graduation?",
+    "inputId": "targetcompanies",
+    "placeholder": "Describe Briefly",
+    "type": "text",
+    "isRequired": false
+  }
+]

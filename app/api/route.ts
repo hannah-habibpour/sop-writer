@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import { EmailTemplate } from "@/components/email-template";
 
+import { generateStatement } from "@/utils/openai";
+
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
@@ -11,8 +13,11 @@ export async function POST(req: NextRequest) {
 
     console.log("Form data received:", body);
 
+    // Generate the SOP using OpenAI
+    const statement = await generateStatement(body);
+
     // Generate the .txt file
-    const fileContent = JSON.stringify(body, null, 2);
+    const fileContent = JSON.stringify(statement);
     const fileName = `sop-writer-${Date.now()}.txt`;
 
     // Convert content to a Buffer

@@ -3,22 +3,22 @@
     "id": 20,
     "question": "Course/program",
     "inputId": "coursename",
-    "placeholder": "Enter the name of the course/program you are applying for in Canada",
+    "placeholder": "Name of the course/program you applied for",
     "type": "text",
     "isRequired": true
   },
   {
     "id": 21,
-    "question": "Why are you interested in this particular course/program?",
-    "inputId": "interestincourse",
-    "placeholder": "Describe Briefly",
+    "question": "University/College",
+    "inputId": "universityname",
+    "placeholder": "Name of the university/college you applied for",
     "type": "text",
     "isRequired": true
   },
   {
     "id": 22,
-    "question": "How does this course align with your academic background?",
-    "inputId": "coursealignment",
+    "question": "Why are you interested in this particular course/program?",
+    "inputId": "interestincourse",
     "placeholder": "Describe Briefly",
     "type": "text",
     "isRequired": true
@@ -41,14 +41,6 @@
   },
   {
     "id": 25,
-    "question": "University/College",
-    "inputId": "universityname",
-    "placeholder": "Enter the name of the university/college you are applying to in Canada",
-    "type": "text",
-    "isRequired": true
-  },
-  {
-    "id": 26,
     "question": "Why did you choose this university for your studies?",
     "inputId": "universitychoice",
     "placeholder": "Describe Briefly",
@@ -56,15 +48,7 @@
     "isRequired": true
   },
   {
-    "id": 27,
-    "question": "Have you contacted faculty or departments at the university?",
-    "inputId": "contactedfaculty",
-    "placeholder": "if yes, please provide details",
-    "type": "text",
-    "isRequired": false
-  },
-  {
-    "id": 28,
+    "id": 26,
     "question": "What unique features or opportunities at this university attracted you?",
     "inputId": "uniquefeatures",
     "placeholder": "Describe Briefly",
@@ -72,7 +56,7 @@
     "isRequired": true
   },
   {
-    "id": 29,
+    "id": 27,
     "question": "Do you know any alumni or current students from this university?",
     "inputId": "knowalumni",
     "placeholder": "if yes, what did you learn from them? please provide details about",
@@ -80,7 +64,7 @@
     "isRequired": false
   },
   {
-    "id": 30,
+    "id": 38,
     "question": "How will studying at this university enhance your professional or academic goals?",
     "inputId": "enhancegoals",
     "placeholder": "Describe Briefly",

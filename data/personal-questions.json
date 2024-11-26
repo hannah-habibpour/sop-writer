@@ -17,25 +17,9 @@
   },
   {
     "id": 3,
-    "question": "Current Address",
-    "inputId": "currentaddress",
-    "placeholder": "Enter your current address",
-    "type": "text",
-    "isRequired": true
-  },
-  {
-    "id": 4,
-    "question": "Nationality",
-    "inputId": "nationality",
+    "question": "Country of Residence",
+    "inputId": "cuntryofresidence",
     "placeholder": "",
-    "type": "text",
-    "isRequired": true
-  },
-  {
-    "id": 5,
-    "question": "Passport Number",
-    "inputId": "passportnumber",
-    "placeholder": "Enter your passport number",
     "type": "text",
     "isRequired": true
   }

@@ -17,19 +17,11 @@
   },
   {
     "id": 16,
-    "question": "Employment start date",
-    "inputId": "employmentstartdate",
-    "placeholder": "",
-    "type": "date",
-    "isRequired": false
-  },
-  {
-    "id": 17,
-    "question": "Employment end date",
-    "inputId": "employmentenddate",
-    "placeholder": "",
-    "type": "date",
-    "isRequired": false
+    "question": "Year(s) of employment",
+    "inputId": "employmentyears",
+    "placeholder": "less than a year, 1 to 2 years, more than 3 years etc.",
+    "type": "type",
+    "isRequired": true
   },
   {
     "id": 18,

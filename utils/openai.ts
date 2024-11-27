@@ -7,7 +7,8 @@ const client = new OpenAI({
 export async function generateStatement(formData: Record<string, string>) {
   const userContent = ` 
   The following is a data of a user for creating a statement of purpose (SOP) to come to Canada as an international student.
-  The government of canada need this to sop to make the decision id the user is qualified to obtain an study permit or not.
+  The government of canada need this sop to make the decision if the user is qualified to obtain an study permit or not.
+  Just give me the statement ready for copy. Be pricise and to the point and avoid super complicated words.
   The user data is as follows: ${JSON.stringify(formData, null, 2)}`;
 
   const chatCompletion = await client.chat.completions.create({

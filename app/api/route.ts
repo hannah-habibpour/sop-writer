@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import { EmailTemplate } from "@/components/email-template";
-
 import { generateStatement } from "@/utils/openai";
+import { generatePDFBuffer } from "@/utils/generate-pdf";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -16,18 +16,19 @@ export async function POST(req: NextRequest) {
     // Generate the SOP using OpenAI
     const statement = await generateStatement(body);
 
+    const pdfBuffer = await generatePDFBuffer(statement);
     // Generate the .txt file
-    const fileContent = JSON.stringify(statement);
-    const fileName = `sop-writer-${Date.now()}.txt`;
+    // const fileContent = JSON.stringify(statement);
+    // const fileName = `sop-writer-${Date.now()}.txt`;
 
-    // Convert content to a Buffer
-    const fileBuffer = Buffer.from(fileContent, "utf-8");
+    // // Convert content to a Buffer
+    // const fileBuffer = Buffer.from(fileContent, "utf-8");
 
     // attachmetn object
     const attachment = {
-      content: fileBuffer.toString("base64"),
-      filename: fileName,
-      type: "text/plain",
+      content: pdfBuffer.toString("base64"),
+      filename: "sop-writer.pdf",
+      type: "application/pdf",
       disposition: "attachment",
     };
 

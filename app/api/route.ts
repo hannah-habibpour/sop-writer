@@ -16,13 +16,8 @@ export async function POST(req: NextRequest) {
     // Generate the SOP using OpenAI
     const statement = await generateStatement(body);
 
+    // Generate the PDF buffer
     const pdfBuffer = await generatePDFBuffer(statement);
-    // Generate the .txt file
-    // const fileContent = JSON.stringify(statement);
-    // const fileName = `sop-writer-${Date.now()}.txt`;
-
-    // // Convert content to a Buffer
-    // const fileBuffer = Buffer.from(fileContent, "utf-8");
 
     // attachmetn object
     const attachment = {

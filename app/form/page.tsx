@@ -32,9 +32,10 @@ export default function FormPage() {
 
     setMessage(result.message);
   };
+
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div className="py-[66px] px-[66px] items-center">
+      <form onSubmit={handleSubmit} className="flex flex-col gap-[20px]">
         <div>
           <div className="text-[20px] font-semibold">Personal Information</div>
           {personalQuestions.map((question) => (
@@ -69,7 +70,10 @@ export default function FormPage() {
             <FormInput key={question.id} question={question} />
           ))}
         </div>
-        <button type="submit" className="bg-blue-500">
+        <button
+          type="submit"
+          className="bg-[#D80621] text-white text-[18px] font-semibold rounded-md py-[8px] max-w-[150px]"
+        >
           Submit
         </button>
       </form>

@@ -19,7 +19,7 @@ export default function AppPage() {
       <div className="mt-[42px] md:mt-[52px]">
         <Link
           href="/form"
-          className="bg-[#008000] text-[20px] text-white px-[32px] py-[12px] rounded-md"
+          className="bg-[#D80621] text-[20px] text-white px-[32px] py-[12px] rounded-md"
         >
           Start
         </Link>

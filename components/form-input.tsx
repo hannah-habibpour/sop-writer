@@ -15,14 +15,25 @@ export default function FormInput({ question }: FormInputProps) {
             <LuAsterisk className="text-[12px] text-red-600" />
           )}
         </div>
-        <input
-          className="border border-gray-600 rounded-md py-[2px] placeholder:text-sm placeholder:pl-[10px]"
-          type={question.type}
-          id={question.inputId}
-          name={question.inputId}
-          placeholder={question.placeholder}
-          {...(question.isRequired ? { required: true } : {})}
-        />
+        {question.questionType === "input" && (
+          <input
+            className="border border-gray-600 rounded-md py-[2px] placeholder:text-sm placeholder:pl-[10px]"
+            type={question.type}
+            id={question.inputId}
+            name={question.inputId}
+            placeholder={question.placeholder}
+            {...(question.isRequired ? { required: true } : {})}
+          />
+        )}
+        {question.questionType === "textarea" && (
+          <textarea
+            className="border border-gray-600 rounded-md py-[2px] placeholder:text-sm placeholder:pl-[10px]"
+            id={question.inputId}
+            name={question.inputId}
+            placeholder={question.placeholder}
+            {...(question.isRequired ? { required: true } : {})}
+          />
+        )}
       </div>
     </div>
   );

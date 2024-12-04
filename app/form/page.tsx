@@ -64,7 +64,7 @@ export default function FormPage() {
         </div>
         <div>
           <div className="text-[20px] font-semibold">
-            Profassional Objectives
+            Professional Objectives
           </div>
           {professionalObjectiveQuestions.map((question) => (
             <FormInput key={question.id} question={question} />

@@ -2,7 +2,8 @@
   {
     "id": 20,
     "question": "Course/program",
-    "inputId": "coursename",
+    "questionType": "input",
+    "inputId": "applied-course-name",
     "placeholder": "Name of the course/program you applied for",
     "type": "text",
     "isRequired": true
@@ -10,7 +11,8 @@
   {
     "id": 21,
     "question": "University/College",
-    "inputId": "universityname",
+    "questionType": "input",
+    "inputId": "applied-university-name",
     "placeholder": "Name of the university/college you applied for",
     "type": "text",
     "isRequired": true
@@ -18,7 +20,8 @@
   {
     "id": 22,
     "question": "Why are you interested in this particular course/program?",
-    "inputId": "interestincourse",
+    "questionType": "textarea",
+    "inputId": "interest-in-applied-course",
     "placeholder": "Describe Briefly",
     "type": "text",
     "isRequired": true
@@ -26,7 +29,8 @@
   {
     "id": 23,
     "question": "How does this course align with your professional experience?",
-    "inputId": "coursealignmentprofessional",
+    "questionType": "textarea",
+    "inputId": "applied-course-alignment-professional",
     "placeholder": "Describe Briefly",
     "type": "text",
     "isRequired": true
@@ -34,7 +38,8 @@
   {
     "id": 24,
     "question": "What specific skills or knowledge do you hope to gain from this program?",
-    "inputId": "skillsknowledge",
+    "questionType": "textarea",
+    "inputId": "skills-knowledge-expected-to-gain-from-applied-course",
     "placeholder": "Describe Briefly",
     "type": "text",
     "isRequired": true
@@ -42,7 +47,8 @@
   {
     "id": 25,
     "question": "Why did you choose this university for your studies?",
-    "inputId": "universitychoice",
+    "questionType": "textarea",
+    "inputId": "university-choice-reason",
     "placeholder": "Describe Briefly",
     "type": "text",
     "isRequired": true
@@ -50,7 +56,8 @@
   {
     "id": 26,
     "question": "What unique features or opportunities at this university attracted you?",
-    "inputId": "uniquefeatures",
+    "questionType": "textarea",
+    "inputId": "unique-features-opportunities-at-applied-university",
     "placeholder": "Describe Briefly",
     "type": "text",
     "isRequired": true
@@ -58,15 +65,17 @@
   {
     "id": 27,
     "question": "Do you know any alumni or current students from this university?",
-    "inputId": "knowalumni",
-    "placeholder": "if yes, what did you learn from them? please provide details about",
+    "questionType": "textarea",
+    "inputId": "know-alumni-or-current-students-from-applied-university",
+    "placeholder": "What did you learn from them?",
     "type": "text",
     "isRequired": false
   },
   {
     "id": 38,
     "question": "How will studying at this university enhance your professional or academic goals?",
-    "inputId": "enhancegoals",
+    "questionType": "textarea",
+    "inputId": "enhance-goals-by-studying-at-applied-university",
     "placeholder": "Describe Briefly",
     "type": "text",
     "isRequired": true

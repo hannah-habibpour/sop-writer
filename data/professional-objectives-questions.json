@@ -2,7 +2,8 @@
   {
     "id": 31,
     "question": "What are your short-term career goals after completing this course?",
-    "inputId": "shorttermgoals",
+    "questionType": "textarea",
+    "inputId": "short-term-goals-after-completing-course",
     "placeholder": "Describe Briefly",
     "type": "text",
     "isRequired": true
@@ -10,7 +11,8 @@
   {
     "id": 32,
     "question": "What are your long-term career goals?",
-    "inputId": "longtermgoals",
+    "questionType": "textarea",
+    "inputId": "long-term-goals-after-completing-course",
     "placeholder": "Describe Briefly",
     "type": "text",
     "isRequired": true
@@ -18,23 +20,26 @@
   {
     "id": 33,
     "question": "How will this program help you achieve these goals?",
-    "inputId": "achievegoals",
+    "questionType": "textarea",
+    "inputId": "achieve-goals-through-program",
     "placeholder": "Describe Briefly",
     "type": "text",
     "isRequired": true
   },
   {
     "id": 34,
-    "question": "Do you plan to return to your home country after completing your studies? If yes, what opportunities do you see for yourself there?",
-    "inputId": "returnhome",
-    "placeholder": "Describe Briefly",
+    "question": "Do you plan to return to your home country after completing your studies?",
+    "questionType": "textarea",
+    "inputId": "return-home-opportunities-after-studies",
+    "placeholder": "If yes, what opportunities do you see for yourself there?",
     "type": "text",
     "isRequired": true
   },
   {
     "id": 35,
     "question": "Describe how this program will make you more competitive in your field of interest",
-    "inputId": "morecompetitive",
+    "questionType": "textarea",
+    "inputId": "more-competitive-in-field-of-interest",
     "placeholder": "Describe Briefly",
     "type": "text",
     "isRequired": true
@@ -42,7 +47,8 @@
   {
     "id": 36,
     "question": "Are there specific companies or roles you are targeting post-graduation?",
-    "inputId": "targetcompanies",
+    "questionType": "textarea",
+    "inputId": "target-companies-or-roles-post-graduation",
     "placeholder": "Describe Briefly",
     "type": "text",
     "isRequired": false

@@ -2,7 +2,8 @@
   {
     "id": 14,
     "question": "Current employer",
-    "inputId": "currentemployer",
+    "questionType": "input",
+    "inputId": "current-employer",
     "placeholder": "Enter the name of your current employer",
     "type": "text",
     "isRequired": false
@@ -10,7 +11,8 @@
   {
     "id": 15,
     "question": "Position/Job Title",
-    "inputId": "jobtitle",
+    "questionType": "input",
+    "inputId": "current-job-title",
     "placeholder": "Enter your position or job title",
     "type": "text",
     "isRequired": false
@@ -18,7 +20,8 @@
   {
     "id": 16,
     "question": "Year(s) of employment",
-    "inputId": "employmentyears",
+    "questionType": "input",
+    "inputId": "employment-years",
     "placeholder": "less than a year, 1 to 2 years, more than 3 years etc.",
     "type": "type",
     "isRequired": true
@@ -26,16 +29,18 @@
   {
     "id": 18,
     "question": "Responsibilities in your current role",
-    "inputId": "jobresponsibilities",
+    "questionType": "textarea",
+    "inputId": "job-responsibilities-current-role",
     "placeholder": "Briefly describe your responsibilities in your current role",
     "type": "text",
     "isRequired": false
   },
   {
     "id": 19,
-    "question": "How has your professional experience influenced your decision to pursue this course in Canada?",
-    "inputId": "professionalinfluence",
-    "placeholder": "Describe Briefly",
+    "question": "Professional experience influence",
+    "questionType": "textarea",
+    "inputId": "professional-influence-pursuing-course-in-canada",
+    "placeholder": "How has your professional experience influenced your decision to pursue this course in Canada?",
     "type": "text",
     "isRequired": false
   }

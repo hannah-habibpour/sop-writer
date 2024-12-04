@@ -2,7 +2,8 @@
   {
     "id": 1,
     "question": "Full Name",
-    "inputId": "fullname",
+    "questionType": "input",
+    "inputId": "full-name",
     "placeholder": "Enter your full name",
     "type": "text",
     "isRequired": true
@@ -10,15 +11,17 @@
   {
     "id": 2,
     "question": "Date of Birth",
+    "questionType": "input",
     "inputId": "dateofbirth",
-    "placeholder": "",
-    "type": "date",
+    "placeholder": "yyyy-mm-dd",
+    "type": "type",
     "isRequired": true
   },
   {
     "id": 3,
     "question": "Country of Residence",
-    "inputId": "cuntryofresidence",
+    "questionType": "input",
+    "inputId": "cuntry-of-residence",
     "placeholder": "",
     "type": "text",
     "isRequired": true

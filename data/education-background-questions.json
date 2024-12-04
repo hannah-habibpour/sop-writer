@@ -2,7 +2,8 @@
   {
     "id": 6,
     "question": "Highest level of education completed",
-    "inputId": "educationlevel",
+    "questionType": "input",
+    "inputId": "current-education-level",
     "placeholder": "highschool or college diploma, bacholare or master degree, etc",
     "type": "text",
     "isRequired": true
@@ -10,7 +11,8 @@
   {
     "id": 7,
     "question": "School (highest level of education)",
-    "inputId": "schoolname",
+    "questionType": "input",
+    "inputId": "school-name-highest-education",
     "placeholder": "Enter the name of the school",
     "type": "text",
     "isRequired": true
@@ -18,7 +20,8 @@
   {
     "id": 8,
     "question": "Field of study",
-    "inputId": "fieldofstudy",
+    "questionType": "input",
+    "inputId": "field-of-study",
     "placeholder": "Enter the field of study",
     "type": "text",
     "isRequired": true
@@ -26,39 +29,35 @@
   {
     "id": 9,
     "question": "Graduation Date",
+    "questionType": "input",
     "inputId": "graduationdate",
-    "placeholder": "",
-    "type": "date",
+    "placeholder": "yyyy-mm-dd",
+    "type": "text",
     "isRequired": true
   },
   {
     "id": 10,
     "question": "GPA or equivalent",
-    "inputId": "gpa",
+    "questionType": "input",
+    "inputId": "gpa-or-equivalent",
     "placeholder": "Enter your GPA out of 4.0",
     "type": "text",
     "isRequired": true
   },
   {
-    "id": 11,
-    "question": "Academic awards or honors",
-    "inputId": "academicawards",
-    "placeholder": "List the academic awards or honors received",
-    "type": "text",
-    "isRequired": false
-  },
-  {
     "id": 12,
-    "question": "research projects/dissertation/significant academic work",
-    "inputId": "researchprojects",
-    "placeholder": "Describe any research projects/dissertations/significant academic work you have completed",
+    "question": "Academic work",
+    "questionType": "textarea",
+    "inputId": "academic-work-description",
+    "placeholder": "Describe research projects/dissertations/significant academic work",
     "type": "text",
     "isRequired": false
   },
   {
     "id": 13,
     "question": "(IELTS, TOEFL, Doulingo, GRE, GMAT, etc) scores",
-    "inputId": "testscore",
+    "questionType": "textarea",
+    "inputId": "standardized-test-scores",
     "placeholder": "List standardized test scores",
     "type": "text",
     "isRequired": true

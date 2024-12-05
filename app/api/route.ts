@@ -29,10 +29,10 @@ export async function POST(req: NextRequest) {
 
     // Send the email by calling the Resend API
     const { data, error } = await resend.emails.send({
-      from: "Acme <onboarding@resend.dev>",
-      to: ["hana.habibpor@gmail.com"],
-      subject: "SOP writer",
-      react: EmailTemplate({ name: body.name }),
+      from: "Glovee <sop@glovee.io>",
+      to: [body.email],
+      subject: "Your SOP is ready!",
+      react: EmailTemplate({ name: body["full-name"] }),
       attachments: [attachment],
     });
 

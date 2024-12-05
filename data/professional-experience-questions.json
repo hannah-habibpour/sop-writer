@@ -1,6 +1,6 @@
 [
   {
-    "id": 14,
+    "id": 12,
     "question": "Current employer",
     "questionType": "input",
     "inputId": "current-employer",
@@ -9,7 +9,7 @@
     "isRequired": false
   },
   {
-    "id": 15,
+    "id": 13,
     "question": "Position/Job Title",
     "questionType": "input",
     "inputId": "current-job-title",
@@ -18,7 +18,7 @@
     "isRequired": false
   },
   {
-    "id": 16,
+    "id": 14,
     "question": "Year(s) of employment",
     "questionType": "input",
     "inputId": "employment-years",
@@ -27,7 +27,7 @@
     "isRequired": true
   },
   {
-    "id": 18,
+    "id": 15,
     "question": "Responsibilities in your current role",
     "questionType": "textarea",
     "inputId": "job-responsibilities-current-role",
@@ -36,7 +36,7 @@
     "isRequired": false
   },
   {
-    "id": 19,
+    "id": 16,
     "question": "Professional experience influence",
     "questionType": "textarea",
     "inputId": "professional-influence-pursuing-course-in-canada",

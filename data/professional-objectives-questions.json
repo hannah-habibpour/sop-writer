@@ -1,6 +1,6 @@
 [
   {
-    "id": 31,
+    "id": 26,
     "question": "What are your short-term career goals after completing this course?",
     "questionType": "textarea",
     "inputId": "short-term-goals-after-completing-course",
@@ -9,7 +9,7 @@
     "isRequired": true
   },
   {
-    "id": 32,
+    "id": 27,
     "question": "What are your long-term career goals?",
     "questionType": "textarea",
     "inputId": "long-term-goals-after-completing-course",
@@ -18,7 +18,7 @@
     "isRequired": true
   },
   {
-    "id": 33,
+    "id": 28,
     "question": "How will this program help you achieve these goals?",
     "questionType": "textarea",
     "inputId": "achieve-goals-through-program",
@@ -27,7 +27,7 @@
     "isRequired": true
   },
   {
-    "id": 34,
+    "id": 29,
     "question": "Do you plan to return to your home country after completing your studies?",
     "questionType": "textarea",
     "inputId": "return-home-opportunities-after-studies",
@@ -36,7 +36,7 @@
     "isRequired": true
   },
   {
-    "id": 35,
+    "id": 30,
     "question": "Describe how this program will make you more competitive in your field of interest",
     "questionType": "textarea",
     "inputId": "more-competitive-in-field-of-interest",
@@ -45,7 +45,7 @@
     "isRequired": true
   },
   {
-    "id": 36,
+    "id": 31,
     "question": "Are there specific companies or roles you are targeting post-graduation?",
     "questionType": "textarea",
     "inputId": "target-companies-or-roles-post-graduation",

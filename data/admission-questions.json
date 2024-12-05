@@ -1,6 +1,6 @@
 [
   {
-    "id": 20,
+    "id": 17,
     "question": "Course/program",
     "questionType": "input",
     "inputId": "applied-course-name",
@@ -9,7 +9,7 @@
     "isRequired": true
   },
   {
-    "id": 21,
+    "id": 18,
     "question": "University/College",
     "questionType": "input",
     "inputId": "applied-university-name",
@@ -18,7 +18,7 @@
     "isRequired": true
   },
   {
-    "id": 22,
+    "id": 19,
     "question": "Why are you interested in this particular course/program?",
     "questionType": "textarea",
     "inputId": "interest-in-applied-course",
@@ -27,7 +27,7 @@
     "isRequired": true
   },
   {
-    "id": 23,
+    "id": 20,
     "question": "How does this course align with your professional experience?",
     "questionType": "textarea",
     "inputId": "applied-course-alignment-professional",
@@ -36,7 +36,7 @@
     "isRequired": true
   },
   {
-    "id": 24,
+    "id": 21,
     "question": "What specific skills or knowledge do you hope to gain from this program?",
     "questionType": "textarea",
     "inputId": "skills-knowledge-expected-to-gain-from-applied-course",
@@ -45,7 +45,7 @@
     "isRequired": true
   },
   {
-    "id": 25,
+    "id": 22,
     "question": "Why did you choose this university for your studies?",
     "questionType": "textarea",
     "inputId": "university-choice-reason",
@@ -54,7 +54,7 @@
     "isRequired": true
   },
   {
-    "id": 26,
+    "id": 23,
     "question": "What unique features or opportunities at this university attracted you?",
     "questionType": "textarea",
     "inputId": "unique-features-opportunities-at-applied-university",
@@ -63,7 +63,7 @@
     "isRequired": true
   },
   {
-    "id": 27,
+    "id": 24,
     "question": "Do you know any alumni or current students from this university?",
     "questionType": "textarea",
     "inputId": "know-alumni-or-current-students-from-applied-university",
@@ -72,7 +72,7 @@
     "isRequired": false
   },
   {
-    "id": 38,
+    "id": 25,
     "question": "How will studying at this university enhance your professional or academic goals?",
     "questionType": "textarea",
     "inputId": "enhance-goals-by-studying-at-applied-university",

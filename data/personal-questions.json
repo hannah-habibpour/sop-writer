@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "question": "Email address",
+    "questionType": "input",
+    "inputId": "email",
+    "placeholder": "Email address to recevie the SOP",
+    "type": "text",
+    "isRequired": true
+  },
+  {
+    "id": 2,
     "question": "Full Name",
     "questionType": "input",
     "inputId": "full-name",
@@ -9,7 +18,7 @@
     "isRequired": true
   },
   {
-    "id": 2,
+    "id": 3,
     "question": "Date of Birth",
     "questionType": "input",
     "inputId": "dateofbirth",
@@ -18,7 +27,7 @@
     "isRequired": true
   },
   {
-    "id": 3,
+    "id": 4,
     "question": "Country of Residence",
     "questionType": "input",
     "inputId": "cuntry-of-residence",

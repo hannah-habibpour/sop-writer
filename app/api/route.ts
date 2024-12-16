@@ -4,7 +4,7 @@ import { EmailTemplate } from "@/components/email-template";
 import { generateStatement } from "@/utils/openai";
 import { generatePDFBuffer } from "@/utils/generate-pdf";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
   try {

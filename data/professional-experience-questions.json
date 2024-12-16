@@ -24,7 +24,7 @@
     "inputId": "employment-years",
     "placeholder": "less than a year, 1 to 2 years, more than 3 years etc.",
     "type": "type",
-    "isRequired": true
+    "isRequired": false
   },
   {
     "id": 15,
@@ -32,15 +32,6 @@
     "questionType": "textarea",
     "inputId": "job-responsibilities-current-role",
     "placeholder": "Briefly describe your responsibilities in your current role",
-    "type": "text",
-    "isRequired": false
-  },
-  {
-    "id": 16,
-    "question": "Professional experience influence",
-    "questionType": "textarea",
-    "inputId": "professional-influence-pursuing-course-in-canada",
-    "placeholder": "How has your professional experience influenced your decision to pursue this course in Canada?",
     "type": "text",
     "isRequired": false
   }

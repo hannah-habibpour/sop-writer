@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "Email address",
+    "question": "Email",
     "questionType": "input",
     "inputId": "email",
     "placeholder": "Email address to recevie the SOP",

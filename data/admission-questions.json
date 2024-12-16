@@ -27,15 +27,6 @@
     "isRequired": true
   },
   {
-    "id": 20,
-    "question": "How does this course align with your professional experience?",
-    "questionType": "textarea",
-    "inputId": "applied-course-alignment-professional",
-    "placeholder": "Describe Briefly",
-    "type": "text",
-    "isRequired": true
-  },
-  {
     "id": 21,
     "question": "What specific skills or knowledge do you hope to gain from this program?",
     "questionType": "textarea",
@@ -49,16 +40,7 @@
     "question": "Why did you choose this university for your studies?",
     "questionType": "textarea",
     "inputId": "university-choice-reason",
-    "placeholder": "Describe Briefly",
-    "type": "text",
-    "isRequired": true
-  },
-  {
-    "id": 23,
-    "question": "What unique features or opportunities at this university attracted you?",
-    "questionType": "textarea",
-    "inputId": "unique-features-opportunities-at-applied-university",
-    "placeholder": "Describe Briefly",
+    "placeholder": "Describe unique features or opportunities at this university attracted you",
     "type": "text",
     "isRequired": true
   },

@@ -41,7 +41,7 @@ export async function POST(req: NextRequest) {
     }
 
     return NextResponse.json(
-      { message: "Form data received successfully!", data: data },
+      { message: "SOP emailed to you successfully!", data: data },
       { status: 200 }
     );
   } catch (error) {

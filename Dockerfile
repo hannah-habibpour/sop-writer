@@ -2,11 +2,6 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-# Set build time environment variables
-ENV NEXT_PUBLIC_OPENAI_API_KEY=NEXT_PUBLIC_OPENAI_API_KEY
-ENV NEXT_PUBLIC_RESEND_API_KEY=NEXT_PUBLIC_RESEND_API_KEY
-
-# Copy package files
 COPY package*.json ./
 
 # Install dependencies

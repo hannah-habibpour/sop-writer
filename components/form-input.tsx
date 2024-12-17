@@ -9,10 +9,10 @@ export default function FormInput({ question }: FormInputProps) {
   return (
     <div>
       <div className="flex flex-col my-[8px]">
-        <div className="flex items-center">
+        <div className="flex justify-between md:justify-normal">
           <label htmlFor={question.inputId}>{question.question}</label>
           {question.isRequired && (
-            <LuAsterisk className="text-[12px] text-red-600" />
+            <LuAsterisk className=" min-w-[12px] text-[12px] text-red-600 self-center" />
           )}
         </div>
         {question.questionType === "input" && (

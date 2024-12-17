@@ -52,7 +52,7 @@ export default function FormPage() {
   };
 
   return (
-    <div className="py-[66px] px-[66px] md:px-[150px] md:py-[100px] items-center">
+    <div className="py-[60px] px-[44px] md:px-[150px] md:py-[100px] items-center">
       {isFormVisible ? (
         <form onSubmit={handleSubmit} className="flex flex-col gap-[20px]">
           <div>

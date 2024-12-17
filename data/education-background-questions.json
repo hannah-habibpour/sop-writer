@@ -10,7 +10,7 @@
   },
   {
     "id": 6,
-    "question": "School (highest level of education)",
+    "question": "School name (highest level of education)",
     "questionType": "input",
     "inputId": "school-name-highest-education",
     "placeholder": "Enter the name of the school",
@@ -58,7 +58,7 @@
     "question": "(IELTS, TOEFL, Doulingo, GRE, GMAT, etc) scores",
     "questionType": "textarea",
     "inputId": "standardized-test-scores",
-    "placeholder": "List standardized test scores",
+    "placeholder": "IELTS: 7.0 TOEFL: 100 GRE: 320 GMAT: 700 etc",
     "type": "text",
     "isRequired": true
   }
